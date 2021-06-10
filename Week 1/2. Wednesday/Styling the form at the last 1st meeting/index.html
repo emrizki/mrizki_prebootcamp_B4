@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=q, initial-scale=1.0">
+  <title>Styling Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flex-container">
+    <div style="flex-grow: 0.5">
+      <div class="content">
+        <h1 style="text-align: center;">M Rizki</h1>
+        <p class="paragraf">It is a long established fact that a reader <br> will be distracted by the readable content <br>of a page when looking at its layout. <br> The point of using Lorem Ipsum is that <br>it has a more-or-less normal distribution <br>
+      </div>
+      <img src="./assets/phone.png" alt="" width="40px"><span style="margin-top: -20px;">12345678</span><br><br><br>
+      <img src="./assets/email.png" alt="" width="40px">mail@mail.com<br><br><br>
+      <img src="./assets/address.png" alt="" width="40px">Jl. Jendral Soedirman
+    </div>
+    <div class="two" style="flex-grow: 2">
+      <form action="" method="POST" class="form">
+        <h2>Input Your Data</h2>
+          <label for="name" style="margin-left: -105px;  font-size: 20px">Name: </label><br>
+          <input type="text">
+          <br><br>
+          <label for="summary" style="margin-left: -76px;  font-size: 20px">Summary: </label><br>
+          <input type="text">
+          <br><br>
+          <label for="phone" style="margin-left: -105px;  font-size: 20px">Phone: </label><br>
+          <input type="tel">
+          <br><br>
+          <label for="email" style="margin-left: -105px;  font-size: 20px">Email: </label><br>
+          <input type="email">
+          <br><br>
+          <label for="address" style="margin-left: -190px;  font-size: 20px">Address: </label><br>
+          <textarea name="address" id="" cols="30" rows="10"></textarea>
+          <br><br>
+          <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
